@@ -61,7 +61,7 @@ print(tuple(tup2))
 
 
 #Q.2-Find largest and smallest elements of a tuples.
-tupl=(5,8,1,9,3)
+tupl=(5,8,1,67,3)
 
 print(max(tupl))
 print(min(tupl))
