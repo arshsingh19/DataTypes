@@ -8,20 +8,21 @@ print(l1)
 b=input()
 d=''
 n=len(b)
-for i in range(0,n):
-    if b[i].isupper() == True:
-        d=d+b[i]
+for i in b:
+    if i.isupper() == True:
+        d=d+i
 print(d)
 
 
 #Q.3- Split the user input on comma's and store the values in a list as integers.
 x=input()
+q=x.split(',')
+
 z=[]
-for j in x:
+for j in q:
     z.append(int(j))
 print(z)
-
-
+#l=list(map(int,input().split(',')))
 
 #Q.4- Check whether a string is palindromic or not.
 p=input()
